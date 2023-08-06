@@ -6,25 +6,34 @@ fun main() {
     val marks = DoubleArray(5)
 
 
+
     println("Input Marks->")
     for(i in marks.indices){
         print("${subjectmarks()} : ")
 
     }
 
-fun subject(){
+fun subjectname(){
 
-    val subjectName = arrayOf<String>("Kiswahili","English","Physics","Chemistry","Maths")
+   /* val subjectName = "Kiswahili","English","Physics","Chemistry","Maths"*/
+    var kiswahili = 70
+    var english = 68
+    var physics = 83
+    var chemistry = 78
+    var math = 84
+    var agriculture = 90
+
+    var totalmarks = kiswahili+english+physics+chemistry+math+agriculture
 
 
 }
 
-    val total = marks.sum()
+//    val total = marks.sum()
 
     val percentage = marks.average()
 
-
-    println("Total of All subjects Marks : $total")
+//
+//    println("Total of All subjects Marks : $total")
     println("Percentage : $percentage")
 
 

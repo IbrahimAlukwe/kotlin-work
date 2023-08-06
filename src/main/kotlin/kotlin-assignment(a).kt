@@ -20,7 +20,7 @@ fun subjectmarks(){
 
     var maximummarks = 700
 
-    var average = totalmarks/2
+//    var average = totalmarks/2
 
     val percentage = (totalmarks*100)/700
 
