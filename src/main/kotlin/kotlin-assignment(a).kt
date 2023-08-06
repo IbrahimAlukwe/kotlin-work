@@ -26,12 +26,12 @@ fun subjectmarks(){
 
     println(percentage)
 
-   /* when{
-        percentage>80 -> println("Grade : A")
+    when{
+        percentage >80 -> println("Grade : A")
         percentage>60 -> println("Grade : B")
         percentage>40 -> println("Grade : C")
         else -> println("Grade : D")
-    }*/
+    }
 
 
 
